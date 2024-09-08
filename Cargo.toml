@@ -1,0 +1,13 @@
+[package]
+name = "lineargen"
+version = "0.1.0"
+edition = "2021"
+authors = ["El Kasztano"]
+description = "Bit sequence generators based on LFSRs"
+repository = "https://github.com/elkasztano/lineargen"
+license = "MIT"
+keywords = ["LFSR", "linear", "feedback", "generator"]
+categories = ["algorithms", "mathematics"]
+
+[dependencies]
+rand_core = { version = "0.6.4", features = ["getrandom"] }
